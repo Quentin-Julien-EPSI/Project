@@ -11,7 +11,7 @@ public class Exo1_Hook2 {
 	    	System.exit(0);
 	    }else {
 	    	System.out.println("Le message de commit ne commence pas par 'ADD-' !");
-	    	System.exit(1);
+	    	System.exit(0);
 	    }
 	}
 
