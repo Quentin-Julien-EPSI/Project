@@ -5,7 +5,7 @@ public class combat {
 	public Classes classe;
 	
 	public combat () {
-		classe = Classes.BARBARE;
+		classe = this.classes;
 	}
 
 	
