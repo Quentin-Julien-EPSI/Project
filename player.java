@@ -1,13 +1,13 @@
 package project.Project;
 
 public class player {
-		Classes classes;
+		classes classes;
 		int baseHP;
 		int baseMP;
 		int attack;
 		int defense;
 		int magicAttack;
-		Armor armor;
-		Weapon weapon;
+		armor armor;
+		weapon weapon;
 		ArrayList<object> inventory;
 }
