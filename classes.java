@@ -1,6 +1,6 @@
 package project.Project;
 
-public enum Classes {
+public enum classes {
 	 BARBARIAN (30,10,15,20,5),
 	 RANGER (15,15,30,10,10),
 	 THIEF(10,20,30,15,15),
@@ -12,7 +12,7 @@ public enum Classes {
 	int magicAttack;
 
 	
-	Classes (int baseHP,int baseMP,int attack,int defense,int magickAttack) {
+	classes (int baseHP,int baseMP,int attack,int defense,int magickAttack) {
 		this.baseHP = baseHP;
 		this.baseMP = baseMP;
 		this.attack = attack;
