@@ -9,9 +9,17 @@ public class player {
 		int attack;
 		int defense;
 		int magicAttack;
+<<<<<<< HEAD
 		String name;
+=======
+<<<<<<< Updated upstream
+>>>>>>> feature-weapon
 		armor armor;
 		weapon weapon;
+=======
+		Armors armor;
+		Weapon weapon;
+>>>>>>> Stashed changes
 		ArrayList<object> inventory;
 		player(String name, armor armor, weapon weapon){
 			this.name = name;

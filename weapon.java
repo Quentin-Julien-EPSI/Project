@@ -8,6 +8,7 @@ public class weapon {
 	int magickattack;
 	String name;
 	
+<<<<<<< Updated upstream
 	public static ArrayList<String> Name = new ArrayList<String> (Arrays.asList(
 			"Rapière", "arc", "arbalète","dague", "claymore",
 			"faux", "faucille","épée", "marteau de guerre", "hache",
@@ -24,3 +25,11 @@ public class weapon {
 	}
 }
 
+=======
+	public static ArrayList<String> WeaponName = new ArrayList<String> (Arrays.asList(
+			
+			
+			
+			))
+}
+>>>>>>> Stashed changes
