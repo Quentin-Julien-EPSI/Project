@@ -2,6 +2,8 @@ package project.Project;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class tools {
 
 	public tools () {
@@ -16,4 +18,10 @@ public class tools {
         Random r = new Random();
         return r.nextInt((max - min) + 1) + min;
     }
+	
+	public static int askQuestion() {
+		String question = "Que souhaitez-vous faire ? (1: Attaquer, 2: Utiliser un sort, 3: Utiliser un objet)";
+		int answer = Integer.parseInt(JOptionPane.showInputDialog(question));
+		return answer;
+	}
 }
