@@ -6,8 +6,8 @@ public enum object {
 	 int restoredHealth;
 	 int restoredMagic;
 	
-	object (int restoratedHealth,int restoredMagic) {
-		this.restoredHealth = restoratedHealth;
+	object (int restoredHealth,int restoredMagic) {
+		this.restoredHealth = restoredHealth;
 		this.restoredMagic = restoredMagic;
 	}
 	public void use(player player) {
