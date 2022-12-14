@@ -22,7 +22,7 @@ public class armor {
 	void set_name(String name) {
 		this.name = name;
 	}
-	ArrayList<String> noms = new ArrayList<String> (Arrays.asList(
+	public static ArrayList<String> noms = new ArrayList<String> (Arrays.asList(
 			"Armor of Ending Ancestors",
 			"Greatplate of Infernal Freedom",
 			"Adamantite Batteplate of Divine Freedom",
