@@ -67,16 +67,16 @@ public class player {
 		
 		public void attack(player player2) {
 			if((this.attack - player2.defense<0)) {
-				player2.actualHP =player2.actualHP- 0;
+				player2.actualHP = player2.actualHP - 0;
 			}else {
-				player2.actualHP = player2.actualHP-(this.attack - player2.defense) ;
+				player2.actualHP = player2.actualHP - (this.attack - player2.defense);
 			}
 		}
 		
 		public void magicUse(player player2) {
 			this.actualMP--;
 			if(((this.magicAttack + 5) - player2.defense<0)) {
-				player2.actualHP = player2.actualHP-0;
+				player2.actualHP = player2.actualHP - 0;
 			}else {
 				player2.actualHP = player2.actualHP-((this.magicAttack + 5) - player2.defense);
 			}
