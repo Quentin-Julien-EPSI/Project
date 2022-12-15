@@ -1,12 +1,14 @@
 package project.Project;
 
 public enum object {
-	 HEAL(0,10),
-	 MAGIC(4,5);
-	 int restoredHealth;
-	 int restoredMagic;
+	HEAL("Heal potion",20,0),
+	MAGIC("Magic potion",0,15);
+	String name; 
+	int restoredHealth;
+	int restoredMagic;
 	
-	object (int restoredHealth,int restoredMagic) {
+	object (String name, int restoredHealth,int restoredMagic) {
+		this.name = name;
 		this.restoredHealth = restoredHealth;
 		this.restoredMagic = restoredMagic;
 	}

@@ -1,10 +1,10 @@
 package project.Project;
 
 public enum classes {
-	 BARBARIAN (30,10,15,20,5),
-	 RANGER (15,15,30,10,10),
-	 THIEF(10,20,30,15,15),
-	 MAGICIAN(4,50,5,5,30);
+	BARBARIAN (50,10,15,20,5),
+	RANGER (40,15,30,15,10),
+	THIEF(30,20,30,15,15),
+	MAGICIAN(4,50,5,10,40);
 	int baseHP;
 	int baseMP;
 	int attack;
