@@ -47,5 +47,4 @@ public class Main {
 		player player2 = new player(true);
 		combat combat1 = new combat(player1, player2);
 	}
->>>>>>> stage
 }
